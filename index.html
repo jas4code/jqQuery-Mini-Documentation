@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet/less" href="style.less" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.1.3/less.js" integrity="sha512-00f27XAKKYcFp+SZ34aFmjTRbG+5Ev8/Owe3iegsrAo+4qXDFqYkXSkgs/fL0u868DTeigXT6xY8ru2Gzbs2oA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <title>sample JS</title>
+    
+</head>
+<body>
+    <div id="sidebar">
+        <ul>
+            <li><a href="#click">.click()</a></li>
+            <li><a href="#hide">.hide()</a></li>
+            <li><a href="#show">.show()</a></li>
+            <li><a href="#toggle">.toggle()</a></li>
+            <li><a href="#slideDown">.slideDown()</a></li>
+            <li><a href="#slideUp">.slideUp()</a></li>
+            <li><a href="#slideToggle">.slideToggle()</a></li>
+            <li><a href="#fadeIn">.fadeIn()</a></li>
+            <li><a href="#fadeOut">.fadeOut()</a></li>
+            <li><a href="#addClass">.addClass()</a></li>
+            <li><a href="#before">.before()</a></li>
+            <li><a href="#after">.after()</a></li>
+            <li><a href="#append">.append()</a></li>
+            <li><a href="#html">.html()</a></li>
+            <li><a href="#attr">.attr()</a></li>
+            <li><a href="#val">.val()</a></li>
+            <li><a href="#text">.text()</a></li>
+        </ul>
+    </div><!-- 
+--> <div id="main">
+        <h1>My Mini Documentation</h1>
+        <div class="main-content">
+            <a href="#" id="click" class="btn">.click()</a>
+            <div class="content">
+                <a href="#" class="content-title">Click</a>
+                <p>Bind an event handler to the “click” JavaScript event, or trigger that event on an element.</p>
+                <p>Example: Clicking the button will display alert box.</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="hide" class="btn">.hide()</a>
+            <div class="content">
+                <a href="#" class="content-title">Hide</a>
+                <p>Hides the matched elements</p>
+                <p>Example: Hiding this<span id="hide-sample"> paragraph</span>.</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="show" class="btn">.show()</a>
+            <div class="content">
+                <a href="#" class="content-title">Show</a>
+                <p>Display the matched elements.</p>
+                <p>Example: Showing the hidden paragraph here.</p>
+                <p id="show-sample" class="hidden">You're doing great, Keep fighting!</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <a href="#" id="toggle" class="btn">.toggle()</a>
+            <div class="content">
+                <a href="#" class="content-title">Toggle</a>
+                <p>Display or hide the matched elements.</p>
+                <p>Example: Toggling the paragraph below.</p>
+                <p id="toggle-sample" class="hidden">I know you can finsih this training :)</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="slideDown" class="btn">.slideDown()</a>
+            <div class="content">
+                <a href="#" class="content-title">slideDown</a>
+                <p>Display the matched elements with a sliding motion.</p>
+                <p>Example: Sliding down a paragraph...</p>
+                <p id="slideDown-sample" class="hidden">I'ts always easier to quit.</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="slideUp" class="btn">.slideUp()</a>
+            <div class="content">
+                <a href="#" class="content-title">slideUp</a>
+                <p id="slideUp-sample" class="show">I know you can finish this training.</p>
+                <p>Display the matched elements with a sliding motion.</p>
+                <p>Example: Sliding Up a paragraph.. </p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="slideToggle" class="btn">.slideToggle()</a>
+            <div class="content">
+                <a href="#" class="content-title">slideToggle</a>
+                <p id="slideToggle-sample" class="hidden">You're gonna go far kid.</p>
+                <p>Display or hide the matched elements with a sliding motion.</p>
+                <p>Example: Toggling a paragraph with sliding motiion.. </p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="fadeIn" class="btn">.fadeIn()</a>
+            <div class="content">
+                <a href="#" class="content-title">fadeIn</a>
+                <p>Display the matched elements by fading them to opaque.</p>
+                <p>Example: Fading the paragraph in. </p>
+                <p id="fadeIn-sample" class="hidden">When nobody believes in you, believe them, jk.</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <a href="#" id="fadeOut" class="btn">.fadeOut()</a>
+            <div class="content">
+                <a href="#" class="content-title">fadeOut</a>
+                <p>Hide the matched elements by fading them to transparent..</p>
+                <p>Example: Fading the paragraph in. </p>
+                <p id="fadeOut-sample" class="show">We all wanted to get out, ALIVE.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

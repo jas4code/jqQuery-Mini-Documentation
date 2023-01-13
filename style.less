@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+h1 {
+    margin: 24px 0 20px 0; 
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    // text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+
+body {
+    position: relative;
+}
+    body div {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+#sidebar {
+    width: 20%;
+    position: fixed;
+    background-color: #d1d5db;
+    height: 615px;
+    border-right: 2px solid #4b5563;
+}
+    #sidebar ul {
+        width: 80%;
+        position: absolute;
+        right: 0;
+        margin-top: 24px;
+    }
+        #sidebar ul li {
+            margin-bottom: 8px;
+        }
+
+
+#main {
+    width: 79.5%;
+    position: absolute;
+    right: 0;
+
+    .main-content{
+        width: 80%;
+        margin-left: 80px; 
+        padding: 24px 16px;
+        border-bottom: 2px solid #1e293b;
+        position: relative;
+
+        * {
+            vertical-align: middle;
+        }
+        .btn{
+            display: inline-block;
+            background-color: #cbd5e1;
+            padding: 8px 5px;
+            border-radius: 3px;
+            text-decoration: none;
+            border-bottom: 2px solid #1f2937;
+            border-right: 1px solid #1f2937;
+            color: #1e293b;
+            font-weight:600; 
+            vertical-align: top;
+            margin-right: 10px; 
+        };
+        .content{
+            text-align: left;
+            display: inline-block;
+            width: 80%;
+            a {
+                font-size: 1.6rem;
+                font-weight: 600;
+                text-decoration: none;
+            }
+            #hide-sample {
+                font-weight: 600;
+            }
+            .hidden {
+                font-weight: 600;
+                // color: #065f46;
+                color: #db2777;
+            }
+            .show {
+                font-weight: 600;
+                // color: #065f46;
+                color: #db2777;
+            }
+        };
+    }
+}
+    
+    
