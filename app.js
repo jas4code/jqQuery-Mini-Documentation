@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     // Click Button
     $("#click").click(function() {
-        alert("Display 'alert' mo daw");
+        alert(".click(): Display 'alert' mo daw");
         // $("#main .main-content .content").hide();
     })
 
