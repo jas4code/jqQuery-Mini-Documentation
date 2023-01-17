@@ -48,5 +48,9 @@ $(document).ready(function() {
         $("#fadeOut-sample").fadeOut("slow");
     })
 
+    // addClass Button 
+    $("#addClass").click(function() {
+        $("#addClass-sample").addClass("bg-primary");
+    })
 
 })
