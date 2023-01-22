@@ -38,19 +38,45 @@ $(document).ready(function() {
         $("#slideToggle-sample").slideToggle();
     })
 
-    // fadeIn Button 
+    // FadeIn Button 
     $("#fadeIn").click(3000, function() {
         $("#fadeIn-sample").fadeIn("slow");
     })
 
-    // fadeOut Button 
+    // FadeOut Button 
      $("#fadeOut").click(3000, function() {
         $("#fadeOut-sample").fadeOut("slow");
     })
 
-    // addClass Button 
+    // AddClass Button 
     $("#addClass").click(function() {
         $("#addClass-sample").addClass("bg-primary");
     })
 
+    // Append Button 
+    $("#append").click(function() {
+        $("#append-sample").append(" becomes the way.");
+    })
+
+    // HTML Button 
+    $("#html").click(function() {
+        var htmlString = $( this ).parent().html();
+        $( "#html-sample" ).text(htmlString);
+    })
+
+    // Attr Button 
+    $("#attr").click(function() {
+        $( "p#attr-sample" ).attr("class", "bg-primary");
+    })
+
+    // Val Button 
+    $("#val").click(function() {
+        console.log($("#val-input").val())
+        $( "span#val-sample" ).text( $("#val-input").val() )
+    })
+
+    // Val Button 
+    $("#text").click(function() {
+        alert($( "span#text-sample" ).text())
+    })
 })

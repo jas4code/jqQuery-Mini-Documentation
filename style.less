@@ -26,12 +26,6 @@ a:hover {
     cursor: pointer;
 }
 
-ul li {
-    list-style: none;
-
-}
-
-
 body {
     position: relative;
     div {
@@ -48,16 +42,13 @@ body {
     background-color: #d1d5db;
     height: 615px;
     border-right: 2px solid #4b5563;
+    padding-top: 28px;
 }
-    #sidebar ul {
-        width: 80%;
-        position: absolute;
-        right: 0;
-        margin-top: 24px;
+    #sidebar a {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 50px;
     }
-        #sidebar ul li {
-            margin-bottom: 8px;
-        }
 
 
 #main {
@@ -65,7 +56,7 @@ body {
     position: absolute;
     right: 0;
 
-    .main-content{
+    .contents{
         width: 80%;
         margin-left: 80px; 
         padding: 24px 16px;
@@ -90,7 +81,7 @@ body {
             text-align: center;
             margin-right: 15px;
         };
-        .content{
+        div{
             text-align: left;
             display: inline-block;
             width: 70%;
@@ -99,18 +90,31 @@ body {
                 font-weight: 600;
                 text-decoration: none;
             }
-            #addClass-sample.bg-primary {
-                background-color: purple;
+            p, input, img {
+                margin-top: 8px;
+            }
+            input {
+                width: 100%;
+                padding: 4px 0 4px 6px;
+            }
+            .bg-primary {
+                background-color: #2563eb;
+                padding: 8px 0 8px 12px;
+                color: #e0f2fe;
+                border-radius: 3px;
+                margin-top: 8px;
             }
             #hide-sample {
                 font-weight: 600;
             }
-            .hidden {
-                font-weight: 600;
-                // color: #065f46;
-                color: #db2777;
+            #toggle-sample {
+                display: block;
+                width: 150px;
+                height: 150px;
+                border-radius: 3px;
+                border: 2px solid #64748b;
             }
-            .show {
+            .sample {
                 font-weight: 600;
                 // color: #065f46;
                 color: #db2777;
